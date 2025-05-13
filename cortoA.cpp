@@ -192,14 +192,14 @@ default:
     case 1:
         cout<<"has elegido: "<<z1<<endl;
         cout<<"El precio es de: $"<<p1<<endl;
-        cout<<"¿Deseas aplicar el descuento del 20%: "<<endl;
+        cout<<"¿Deseas aplicar el descuento del 15%: "<<endl;
         cout<<"1. si"<<endl;
         cout<<"2. no"<<endl;
         cin>> zo;
         switch (zo)
         {
         case 1:
-            zr=p1-(p1*0.20);
+            zr=p1-(p1*0.15);
             cout<<"El precio con descuento es de: $"<<zr<<endl;
 
             break;
@@ -216,14 +216,14 @@ default:
     case 2:
         cout<<"has elegido: "<<z2<<endl;
         cout<<"El precio es de: $"<<p2<<endl;
-        cout<<"¿Deseas aplicar el descuento del 20%: "<<endl;
+        cout<<"¿Deseas aplicar el descuento del 15%: "<<endl;
         cout<<"1. si"<<endl;
         cout<<"2. no"<<endl;
         cin>> zo;
         switch (zo)
         {
         case 1:
-            zr=p2-(p2*0.20);
+            zr=p2-(p2*0.15);
             cout<<"El precio con descuento es de: $"<<zr<<endl;
 
             break;
@@ -241,14 +241,14 @@ default:
     case 3:
         cout<<"has elegido: "<<3<<endl;
         cout<<"El precio es de: $"<<p3<<endl;
-        cout<<"¿Deseas aplicar el descuento del 20%: "<<endl;
+        cout<<"¿Deseas aplicar el descuento del 15%: "<<endl;
         cout<<"1. si"<<endl;
         cout<<"2. no"<<endl;
         cin>> zo;
         switch (zo)
         {
         case 1:
-            zr=p3-(p3*0.20);
+            zr=p3-(p3*0.15);
             cout<<"El precio con descuento es de: $"<<zr<<endl;
 
             break;
